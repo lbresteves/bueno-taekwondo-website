@@ -14,9 +14,9 @@ class SpecialHeader extends HTMLElement {
                                 <!-- ***** Menu Start ***** -->
                                 <ul class="nav">
                                     <li><a href="index.html">Home</a></li>
-                                    <li><a href="about.html">Sobre</a></li>
-                                    <li><a href="deals.html">Fotos</a></li>
-                                    <li><a href="reservation.html">Marcar Aula</a></li>
+                                    <li><a href="dev_page.html">Sobre</a></li>
+                                    <li><a href="dev_page.html">Horários</a></li>
+                                    <li><a href="dev_page.html">Fotos</a></li>
                                 </ul>   
                                 <a class='menu-trigger'>
                                     <span>Menu</span>
@@ -61,6 +61,8 @@ class SpecialFooter extends HTMLElement {
                 <div class="col-lg-12">
                 <p> <a href="#">Bueno Taekwondo</a> All rights reserved. 
                 <br>Insta: <a href="https://www.instagram.com/daybuenoc/" target="_blank" title="Dayane Bueno Instagram">@daybuenoc</a></p>
+                <p>WhatsApp: (31) 9 8589-8545</p>
+                <p>Rua João Procópio de Carvalho, 211a, Jardim Alvorada<p>
                 </div>
             </div>
             </div>
