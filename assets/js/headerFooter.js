@@ -14,9 +14,9 @@ class SpecialHeader extends HTMLElement {
                                 <!-- ***** Menu Start ***** -->
                                 <ul class="nav">
                                     <li><a href="index.html">Home</a></li>
-                                    <li><a href="about.html">Sobre</a></li>
-                                    <li><a href="deals.html">Fotos</a></li>
-                                    <li><a href="reservation.html">Marcar Aula</a></li>
+                                    <li><a href="dev_page.html">Sobre</a></li>
+                                    <li><a href="dev_page.html">Horários</a></li>
+                                    <li><a href="dev_page.html">Fotos</a></li>
                                 </ul>   
                                 <a class='menu-trigger'>
                                     <span>Menu</span>
