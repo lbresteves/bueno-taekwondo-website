@@ -42,8 +42,8 @@ figure, header, nav, section, article, aside, footer, figcaption {
 
 :root {
   --cor-principal: #BA2A26;
-  --cor-secundaria: #030304;  /* Substitua por sua cor secundária */
-  --cor-terciaria: #fff;   /* Substitua por sua cor terciária */
+  --cor-secundaria: #030304;
+  --cor-terciaria: #fff;
 }
 
 .clearfix:after {
@@ -158,20 +158,41 @@ body {
 .border-button a {
   font-size: 14px;
   color: var(--cor-principal);
-  background-color: transparent;
-  border: 1px solid var(--cor-principal);
+  background-color: var(--cor-terciaria);
+  border: transparent;
   padding: 12px 30px;
   display: inline-block;
-  border-radius: 25px;
+  border-radius: 20px;
   font-weight: 500;
   text-transform: capitalize;
   letter-spacing: 0.5px;
-  transition: all .3s;
+  transition: all .6s;
   position: relative;
   overflow: hidden;
 }
 
 .border-button a:hover {
+  background-color: var(--cor-principal);
+  color: var(--cor-terciaria);
+}
+
+.border-button-price a {
+  font-size: 14px;
+  color: var(--cor-terciaria);
+  background-color: var(--cor-secundaria);
+  border: transparent;
+  padding: 12px 30px;
+  display: inline-block;
+  border-radius: 20px;
+  font-weight: 500;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  transition: all .6s;
+  position: relative;
+  overflow: hidden;
+}
+
+.border-button-price a:hover {
   background-color: var(--cor-principal);
   color: var(--cor-terciaria);
 }
@@ -1959,10 +1980,11 @@ Deals Page Style
 
 .amazing-deals .item h4 {
   font-size: 20px;
+  color: #696669;
   font-weight: 700;
   padding-bottom: 25px;
   margin-bottom: 10px;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #dddddd;
 }
 
 .amazing-deals .item i {
