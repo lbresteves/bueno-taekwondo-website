@@ -1,35 +1,6 @@
-/*
 
-TemplateMo 580 Woox Travel
-
-https://templatemo.com/tm-580-woox-travel
-
-*/
-/* ---------------------------------------------
-Table of contents
-------------------------------------------------
-01. font & reset css
-02. reset
-03. global styles
-04. header
-05. banner
-06. features
-07. testimonials
-08. contact
-09. footer
-
---------------------------------------------- */
-/* 
----------------------------------------------
-font & reset css
---------------------------------------------- 
-*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900");
-/* 
----------------------------------------------
-reset
---------------------------------------------- 
-*/
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
 pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
 s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
@@ -118,11 +89,6 @@ img {
   overflow: hidden;
 }
 
-/* 
----------------------------------------------
-Global Styles
---------------------------------------------- 
-*/
 html,
 body {
   background: var(--cor-terciaria);
@@ -955,12 +921,6 @@ Banner Style
 }
 
 
-/* 
----------------------------------------------
-Visit Country Style
---------------------------------------------- 
-*/
-
 .information-section {
   margin-top: 120px;
 }
@@ -1081,13 +1041,6 @@ Visit Country Style
 }
 
 
-
-/* 
----------------------------------------------
-Call To Action Style
---------------------------------------------- 
-*/
-
 .call-to-action {
   margin-top: 120px;
   background-image: url(../images/cta-bg.jpg);
@@ -1127,12 +1080,6 @@ Call To Action Style
 }
 
 
-/* 
----------------------------------------------
-Footer Style
---------------------------------------------- 
-*/
-
 footer {
   background-color: var(--cor-principal);
   text-align: center;
@@ -1153,14 +1100,6 @@ footer p a:hover {
   color: var(--cor-terciaria);
   opacity: 0.75;
 }
-
-
-
-/* 
----------------------------------------------
-About Page Style
---------------------------------------------- 
-*/
 
 .about-main-content {
   margin-top: 70px;
@@ -2044,13 +1983,6 @@ Deals Page Style
   border: none;
 }
 
-
-/* 
----------------------------------------------
-Reservation Page Style
---------------------------------------------- 
-*/
-
 .about-me-heading {
   background-image: url(../images/banner-02.jpg);
   background-position: center center;
@@ -2225,14 +2157,6 @@ Reservation Page Style
 .reservation-form #reservation-form button:hover {
   opacity: 0.8;
 }
-
-
-
-/* 
----------------------------------------------
-Responsive Style
---------------------------------------------- 
-*/
 
 body {
   overflow-x: hidden;
