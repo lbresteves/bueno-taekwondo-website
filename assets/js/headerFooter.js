@@ -15,7 +15,7 @@ class SpecialHeader extends HTMLElement {
                                 <ul class="nav">
                                     <li><a href="index.html">Home</a></li>
                                     <li><a href="dev_page.html">Conquistas</a></li>
-                                    <li><a href="dev_page.html">Sobre mim</a></li>
+                                    <li><a href="aboutme.html">Sobre mim</a></li>
                                     <li><a href="deals.html">Aulas</a></li>
                                     <li><a href="dev_page.html">Fotos</a></li>
                                 </ul>   

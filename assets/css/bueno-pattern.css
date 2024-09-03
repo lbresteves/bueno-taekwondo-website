@@ -921,6 +921,58 @@ Banner Style
 }
 
 
+.text-with-right-image {
+  flex:0 0 auto;
+  width:75%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text-with-right-image .section-heading {
+  flex: 1;
+  margin-right: 5%;
+}
+
+.text-with-right-image .image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.text-with-right-image .image img {
+  width: auto; 
+  height: auto;
+  max-width: 150px; 
+  transform: scale(2); 
+  border-radius: 15px; 
+}
+
+@media (max-width: 768px) {
+  .text-with-right-image {
+    flex-direction: column; 
+    align-items: center;
+    text-align: center; 
+    margin-bottom: 20px;
+  }
+
+  .text-with-right-image .section-heading {
+    margin-right: 0; 
+    margin-bottom: 20px; 
+  }
+
+  .text-with-right-image .image {
+    justify-content: center;
+  }
+
+  .text-with-right-image .image img {
+    max-width: 200px; 
+    transform: scale(1.2);
+    margin-bottom: 20px;
+  }
+}
+
+
 .information-section {
   margin-top: 120px;
 }
