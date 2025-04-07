@@ -623,8 +623,8 @@ Header Style
     margin-left: 0px;
   }
   .logo img {
-    height: 10px; /* ou o tamanho que quiser */
-    width: auto;
+    max-width: 120px;
+    height: auto;
 }
   .header-area .menu-trigger {
     display: block !important;
@@ -713,7 +713,7 @@ Banner Style
 #section-1 {
   margin-top: 0px;
   height: 100vh;
-  min-height: 700px;
+  min-height: 100px;
   color: var(--cor-terciaria);
   background-color: #222;
   position: relative;
@@ -957,6 +957,7 @@ Banner Style
 }
 
 @media (max-width: 768px) {
+  
   .text-with-right-image {
     flex-direction: column; 
     align-items: center;
