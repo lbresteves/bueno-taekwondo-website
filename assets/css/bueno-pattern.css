@@ -573,6 +573,7 @@ Header Style
 }
 
 @media (max-width: 992px) {
+
   .header-area {
     padding: 10px 0;
     height: auto;
@@ -918,6 +919,12 @@ Banner Style
 #section-1 .content-slider #banner4:checked ~ nav label:nth-of-type(4) .progressbar-fill {
   animation: progressBarFill 5s linear;
 }
+@media (max-width: 768px) {
+  .controls label .text {
+    display: none !important;
+  }
+}
+
 /* Animations */
 @keyframes progressBarFill {
   from {
@@ -978,6 +985,7 @@ Banner Style
     max-width: 200px; 
     transform: scale(1.2);
     margin-bottom: 20px;
+    margin-top: 20px;
   }
 }
 
